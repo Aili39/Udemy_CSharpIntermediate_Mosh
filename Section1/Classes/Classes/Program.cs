@@ -11,6 +11,7 @@ namespace Classes
         public void Introduce(string to)
         {
             Console.WriteLine("Hi {0}, I am {1}", to, Name);
+            Console.ReadLine();
         }
 
         public static Person Parse(string str)
